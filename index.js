@@ -6,6 +6,7 @@ require('dotenv').config()
 
 const authRoutes = require("./routes/auth.js")
 
+
 const app = express()
 const PORT = process.env.PORT || 5000
 
